@@ -16,8 +16,6 @@ const App: React.FC = () => {
   }
 
   const updateTodo = (todo: Todo) => {
-    console.log(todo)
-
     setTodos(todos.map((t) => (t.id === todo.id ? todo : t)))
     setCurrentTodo(null)
   }
