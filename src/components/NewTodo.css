@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 10px;
+   
+}
+
+.parent label{
+    padding: 5px 15px;
+ 
+}
+.parent input{
+    padding: 10px;
+}
+
+
+button{
+    padding: 5px 20px;
+    margin-top: 15px;
+    background-color: coral;
+    border-style: none;
+    color:white;
+    font-size: 20px;
+}
